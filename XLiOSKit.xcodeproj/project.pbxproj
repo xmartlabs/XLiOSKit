@@ -1,0 +1,810 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		28BCC83718B697C0008D2923 /* Framework */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 28BCC83818B697C0008D2923 /* Build configuration list for PBXAggregateTarget "Framework" */;
+			buildPhases = (
+				28BCC83D18B6983D008D2923 /* ShellScript */,
+			);
+			dependencies = (
+				28BCC83C18B697D3008D2923 /* PBXTargetDependency */,
+			);
+			name = Framework;
+			productName = Framework;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		0919A7591819B695001DFA37 /* XLSectionPageControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 0919A7581819B695001DFA37 /* XLSectionPageControl.m */; };
+		0924F16B181B2578003EB7DF /* XLBarButtonItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 0924F16A181B2578003EB7DF /* XLBarButtonItem.m */; };
+		28031CEF1771144A00FB6A61 /* UILabel+XLAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 28031CEE1771144A00FB6A61 /* UILabel+XLAdditions.m */; };
+		28031CF0177115E600FB6A61 /* UILabel+XLAdditions.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 28031CED1771144A00FB6A61 /* UILabel+XLAdditions.h */; };
+		28031D161771EBB200FB6A61 /* NSString+XLAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 28031D151771EBB200FB6A61 /* NSString+XLAdditions.m */; };
+		28031D171771ED5100FB6A61 /* NSString+XLAdditions.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 28031D141771EBB200FB6A61 /* NSString+XLAdditions.h */; };
+		28031D1A1771EF0B00FB6A61 /* UIImage+XLAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 28031D191771EF0B00FB6A61 /* UIImage+XLAdditions.m */; };
+		28031D1B1771EFFE00FB6A61 /* UIImage+XLAdditions.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 28031D181771EF0B00FB6A61 /* UIImage+XLAdditions.h */; };
+		28122C7818524E4400889C2D /* UITableViewController+XLAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 28122C7718524E4400889C2D /* UITableViewController+XLAdditions.m */; };
+		282BB22418524FA300624018 /* UITableViewController+XLAdditions.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 28122C7618524E4400889C2D /* UITableViewController+XLAdditions.h */; };
+		282D6D4817A5EE19003FD6C3 /* XLCustomProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = 282D6D4617A5EE19003FD6C3 /* XLCustomProgressView.m */; };
+		282D6D4A17A5EE5E003FD6C3 /* XLCustomProgressView.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 282D6D4517A5EE19003FD6C3 /* XLCustomProgressView.h */; };
+		283A63AC184630E8009128E2 /* NSObject+XLAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 283A63AB184630E8009128E2 /* NSObject+XLAdditions.m */; };
+		283A63AD18463103009128E2 /* NSObject+XLAdditions.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 283A63AA184630E8009128E2 /* NSObject+XLAdditions.h */; };
+		284B178017A9D479004146D1 /* UIApplication+XLAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 284B177F17A9D479004146D1 /* UIApplication+XLAdditions.m */; };
+		284B178117A9D536004146D1 /* UIApplication+XLAdditions.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 284B177E17A9D479004146D1 /* UIApplication+XLAdditions.h */; };
+		284B179617AC86B5004146D1 /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 284B179517AC86B5004146D1 /* Reachability.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		284B179717AC86D5004146D1 /* Reachability.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 284B179417AC86B5004146D1 /* Reachability.h */; };
+		28548B2D1787422F007B45D5 /* XLImageSubtitledView.m in Sources */ = {isa = PBXBuildFile; fileRef = 28548B2C1787422F007B45D5 /* XLImageSubtitledView.m */; };
+		28548B34178747BB007B45D5 /* XLImageSubtitledView.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 28548B2B1787422F007B45D5 /* XLImageSubtitledView.h */; };
+		286D6F36190AB6F40077BF2E /* NSDate+XLAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 286D6F34190AB6F40077BF2E /* NSDate+XLAdditions.h */; };
+		286D6F37190AB6F40077BF2E /* NSDate+XLAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 286D6F35190AB6F40077BF2E /* NSDate+XLAdditions.m */; };
+		2879CD1E18E0F89800B66A94 /* XLRightDetailTableViewCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 2879CD1C18E0F89800B66A94 /* XLRightDetailTableViewCell.h */; };
+		2879CD1F18E0F89800B66A94 /* XLRightDetailTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2879CD1D18E0F89800B66A94 /* XLRightDetailTableViewCell.m */; };
+		2879CD2218E0F91900B66A94 /* XLButtonTableViewCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 2879CD2018E0F91900B66A94 /* XLButtonTableViewCell.h */; };
+		2879CD2318E0F91900B66A94 /* XLButtonTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2879CD2118E0F91900B66A94 /* XLButtonTableViewCell.m */; };
+		287B90F0177B547B00F556F1 /* NSError+XLAdditions.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 287B90D0177A5F1700F556F1 /* NSError+XLAdditions.h */; };
+		287B9158177BBBA500F556F1 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 287B9157177BBBA500F556F1 /* MobileCoreServices.framework */; };
+		287B915A177BBC3400F556F1 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 287B9159177BBC3400F556F1 /* SystemConfiguration.framework */; };
+		287B915D177BC4B500F556F1 /* NSManagedObject+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = 287B915C177BC4B500F556F1 /* NSManagedObject+Additions.m */; };
+		287B915E177BC70B00F556F1 /* NSManagedObject+Additions.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 287B915B177BC4B500F556F1 /* NSManagedObject+Additions.h */; };
+		28A4F9901844D6D400750792 /* UIDevice+XLAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 28A4F98F1844D6D400750792 /* UIDevice+XLAdditions.m */; };
+		28A4F9911844D73200750792 /* UIDevice+XLAdditions.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 28A4F98E1844D6D400750792 /* UIDevice+XLAdditions.h */; };
+		28B0368C1870FB9B00477BF5 /* UIViewController+XLAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 28B0368B1870FB9B00477BF5 /* UIViewController+XLAdditions.m */; };
+		28B2EF6917834078002B2641 /* KeychainItemWrapper.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 28BEA4BD1778C52A00CDA9D2 /* KeychainItemWrapper.h */; };
+		28BCC80C18B692A5008D2923 /* XLCustomProgressView.h in Headers */ = {isa = PBXBuildFile; fileRef = 282D6D4517A5EE19003FD6C3 /* XLCustomProgressView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		28BCC80D18B692A5008D2923 /* XLTitledAndCancellableProgressView.h in Headers */ = {isa = PBXBuildFile; fileRef = B205532F17A6C63900C6530E /* XLTitledAndCancellableProgressView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		28BCC80E18B692A5008D2923 /* XLImageSubtitledView.h in Headers */ = {isa = PBXBuildFile; fileRef = 28548B2B1787422F007B45D5 /* XLImageSubtitledView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		28BCC81618B692A5008D2923 /* XLHideKeyboardTableView.h in Headers */ = {isa = PBXBuildFile; fileRef = 28E313AA17734DC500D6FCA0 /* XLHideKeyboardTableView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		28BCC81718B692A5008D2923 /* XLHideKeyboardView.h in Headers */ = {isa = PBXBuildFile; fileRef = 28E313A617734CE200D6FCA0 /* XLHideKeyboardView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		28BCC81818B692A5008D2923 /* XLHideKeyboardScrollView.h in Headers */ = {isa = PBXBuildFile; fileRef = 28E313B61774E6E100D6FCA0 /* XLHideKeyboardScrollView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		28BCC81918B692A5008D2923 /* XLCustomPickerView.h in Headers */ = {isa = PBXBuildFile; fileRef = B2039D2E17CBA5A40092F0D5 /* XLCustomPickerView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		28BCC81A18B692A5008D2923 /* XLCustomSheetView.h in Headers */ = {isa = PBXBuildFile; fileRef = B21984A617D6571E0049A1DD /* XLCustomSheetView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		28BCC81B18B692A5008D2923 /* XLSectionPageControl.h in Headers */ = {isa = PBXBuildFile; fileRef = 0919A7571819B695001DFA37 /* XLSectionPageControl.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		28BCC81C18B692A5008D2923 /* XLBarButtonItem.h in Headers */ = {isa = PBXBuildFile; fileRef = 0924F169181B2578003EB7DF /* XLBarButtonItem.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		28BCC81D18B692A5008D2923 /* XLSwipeView.h in Headers */ = {isa = PBXBuildFile; fileRef = B210EAF218400E6D008ECE35 /* XLSwipeView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		28BCC81F18B692A5008D2923 /* XLNonRoutableNavigationViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 28F03804177E3D7F00DBE656 /* XLNonRoutableNavigationViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		28BCC82018B692A5008D2923 /* XLCoreDataTableViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 28E313B21774D49000D6FCA0 /* XLCoreDataTableViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		28BCC82118B692A5008D2923 /* XLCoreDataCollectionViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 28BEA4C71778EF7600CDA9D2 /* XLCoreDataCollectionViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		28BCC82618B692A5008D2923 /* UIDevice+XLAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 28A4F98E1844D6D400750792 /* UIDevice+XLAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		28BCC82718B692A5008D2923 /* UILabel+XLAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 28031CED1771144A00FB6A61 /* UILabel+XLAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		28BCC82818B692A5008D2923 /* NSString+XLAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 28031D141771EBB200FB6A61 /* NSString+XLAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		28BCC82918B692A5008D2923 /* UIImage+XLAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 28031D181771EF0B00FB6A61 /* UIImage+XLAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		28BCC82A18B692A5008D2923 /* UIView+XLAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 28E313A21772044100D6FCA0 /* UIView+XLAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		28BCC82B18B692A5008D2923 /* NSError+XLAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 287B90D0177A5F1700F556F1 /* NSError+XLAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		28BCC82C18B692A5008D2923 /* NSManagedObject+Additions.h in Headers */ = {isa = PBXBuildFile; fileRef = 287B915B177BC4B500F556F1 /* NSManagedObject+Additions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		28BCC82D18B692A5008D2923 /* NSJSONSerialization+XLAdittions.h in Headers */ = {isa = PBXBuildFile; fileRef = 28F037FC177DE68800DBE656 /* NSJSONSerialization+XLAdittions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		28BCC82E18B692A5008D2923 /* UIColor+XLAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 28DF7761178B17B00025696D /* UIColor+XLAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		28BCC82F18B692A5008D2923 /* NSObject+XLAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 283A63AA184630E8009128E2 /* NSObject+XLAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		28BCC83018B692A5008D2923 /* UITableViewController+XLAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 28122C7618524E4400889C2D /* UITableViewController+XLAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		28BCC83118B692A5008D2923 /* UIViewController+XLAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 28B0368A1870FB9B00477BF5 /* UIViewController+XLAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		28BCC83218B692A5008D2923 /* ALAssetsLibrary+XLAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 28F49CAC1899FEE500A70660 /* ALAssetsLibrary+XLAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		28BCC83318B692A5008D2923 /* XLKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 28C8EE021770F19A00AFB98C /* XLKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		28BCC83418B692C1008D2923 /* Reachability.h in Headers */ = {isa = PBXBuildFile; fileRef = 284B179417AC86B5004146D1 /* Reachability.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		28BCC83518B692C1008D2923 /* KeychainItemWrapper.h in Headers */ = {isa = PBXBuildFile; fileRef = 28BEA4BD1778C52A00CDA9D2 /* KeychainItemWrapper.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		28BCC84018B69B41008D2923 /* UIApplication+XLAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 284B177E17A9D479004146D1 /* UIApplication+XLAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		28BEA4BF1778C57F00CDA9D2 /* KeychainItemWrapper.m in Sources */ = {isa = PBXBuildFile; fileRef = 28BEA4BE1778C52A00CDA9D2 /* KeychainItemWrapper.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		28BEA4C91778EF7600CDA9D2 /* XLCoreDataCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28BEA4C81778EF7600CDA9D2 /* XLCoreDataCollectionViewController.m */; };
+		28C8EDFE1770F19A00AFB98C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28C8EDFD1770F19A00AFB98C /* Foundation.framework */; };
+		28C8EE031770F19A00AFB98C /* XLKit.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 28C8EE021770F19A00AFB98C /* XLKit.h */; };
+		28C8EE051770F19A00AFB98C /* XLKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 28C8EE041770F19A00AFB98C /* XLKit.m */; };
+		28DF7763178B17B00025696D /* UIColor+XLAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 28DF7762178B17B00025696D /* UIColor+XLAdditions.m */; };
+		28DF7764178B18F60025696D /* UIColor+XLAdditions.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 28DF7761178B17B00025696D /* UIColor+XLAdditions.h */; };
+		28E313A41772044100D6FCA0 /* UIView+XLAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 28E313A31772044100D6FCA0 /* UIView+XLAdditions.m */; };
+		28E313A5177204B000D6FCA0 /* UIView+XLAdditions.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 28E313A21772044100D6FCA0 /* UIView+XLAdditions.h */; };
+		28E313A817734CE300D6FCA0 /* XLHideKeyboardView.m in Sources */ = {isa = PBXBuildFile; fileRef = 28E313A717734CE200D6FCA0 /* XLHideKeyboardView.m */; };
+		28E313AC17734DC500D6FCA0 /* XLHideKeyboardTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 28E313AB17734DC500D6FCA0 /* XLHideKeyboardTableView.m */; };
+		28E313AE17734E3100D6FCA0 /* XLHideKeyboardTableView.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 28E313AA17734DC500D6FCA0 /* XLHideKeyboardTableView.h */; };
+		28E313AF17734E3100D6FCA0 /* XLHideKeyboardView.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 28E313A617734CE200D6FCA0 /* XLHideKeyboardView.h */; };
+		28E313B41774D49000D6FCA0 /* XLCoreDataTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28E313B31774D49000D6FCA0 /* XLCoreDataTableViewController.m */; };
+		28E313B51774D58300D6FCA0 /* XLCoreDataTableViewController.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 28E313B21774D49000D6FCA0 /* XLCoreDataTableViewController.h */; };
+		28E313B81774E6E100D6FCA0 /* XLHideKeyboardScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 28E313B71774E6E100D6FCA0 /* XLHideKeyboardScrollView.m */; };
+		28F037FE177DE68800DBE656 /* NSJSONSerialization+XLAdittions.m in Sources */ = {isa = PBXBuildFile; fileRef = 28F037FD177DE68800DBE656 /* NSJSONSerialization+XLAdittions.m */; };
+		28F037FF177DE90D00DBE656 /* NSJSONSerialization+XLAdittions.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 28F037FC177DE68800DBE656 /* NSJSONSerialization+XLAdittions.h */; };
+		28F03801177E136900DBE656 /* NSError+XLAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 28F03800177E136900DBE656 /* NSError+XLAdditions.m */; };
+		28F03806177E3D7F00DBE656 /* XLNonRoutableNavigationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28F03805177E3D7F00DBE656 /* XLNonRoutableNavigationViewController.m */; };
+		28F03807177E3E9400DBE656 /* XLNonRoutableNavigationViewController.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 28F03804177E3D7F00DBE656 /* XLNonRoutableNavigationViewController.h */; };
+		28F49CAE1899FEE500A70660 /* ALAssetsLibrary+XLAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 28F49CAD1899FEE500A70660 /* ALAssetsLibrary+XLAdditions.m */; };
+		28F49CAF1899FEFE00A70660 /* ALAssetsLibrary+XLAdditions.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 28F49CAC1899FEE500A70660 /* ALAssetsLibrary+XLAdditions.h */; };
+		28F49CB11899FF4800A70660 /* AssetsLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28F49CB01899FF4800A70660 /* AssetsLibrary.framework */; };
+		B2039D3017CBA5A40092F0D5 /* XLCustomPickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = B2039D2F17CBA5A40092F0D5 /* XLCustomPickerView.m */; };
+		B205533117A6C63900C6530E /* XLTitledAndCancellableProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = B205533017A6C63900C6530E /* XLTitledAndCancellableProgressView.m */; };
+		B205533217A6EA0600C6530E /* XLTitledAndCancellableProgressView.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = B205532F17A6C63900C6530E /* XLTitledAndCancellableProgressView.h */; };
+		B210EAF418400E6D008ECE35 /* XLSwipeView.m in Sources */ = {isa = PBXBuildFile; fileRef = B210EAF318400E6D008ECE35 /* XLSwipeView.m */; };
+		B21984A817D6571E0049A1DD /* XLCustomSheetView.m in Sources */ = {isa = PBXBuildFile; fileRef = B21984A717D6571E0049A1DD /* XLCustomSheetView.m */; };
+		B2D2F34F17CBD28E00966016 /* XLCustomPickerView.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = B2039D2E17CBA5A40092F0D5 /* XLCustomPickerView.h */; };
+		B2FC9469177A14F800EF0172 /* XLCoreDataCollectionViewController.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 28BEA4C71778EF7600CDA9D2 /* XLCoreDataCollectionViewController.h */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		28BCC83B18B697D3008D2923 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 28C8EDF21770F19A00AFB98C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 28C8EDF91770F19A00AFB98C;
+			remoteInfo = XLiOSKit;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		28C8EDF81770F19A00AFB98C /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/${PRODUCT_NAME}";
+			dstSubfolderSpec = 16;
+			files = (
+				28F49CAF1899FEFE00A70660 /* ALAssetsLibrary+XLAdditions.h in CopyFiles */,
+				282BB22418524FA300624018 /* UITableViewController+XLAdditions.h in CopyFiles */,
+				283A63AD18463103009128E2 /* NSObject+XLAdditions.h in CopyFiles */,
+				28A4F9911844D73200750792 /* UIDevice+XLAdditions.h in CopyFiles */,
+				284B179717AC86D5004146D1 /* Reachability.h in CopyFiles */,
+				284B178117A9D536004146D1 /* UIApplication+XLAdditions.h in CopyFiles */,
+				282D6D4A17A5EE5E003FD6C3 /* XLCustomProgressView.h in CopyFiles */,
+				28DF7764178B18F60025696D /* UIColor+XLAdditions.h in CopyFiles */,
+				28548B34178747BB007B45D5 /* XLImageSubtitledView.h in CopyFiles */,
+				28B2EF6917834078002B2641 /* KeychainItemWrapper.h in CopyFiles */,
+				28F03807177E3E9400DBE656 /* XLNonRoutableNavigationViewController.h in CopyFiles */,
+				28F037FF177DE90D00DBE656 /* NSJSONSerialization+XLAdittions.h in CopyFiles */,
+				287B915E177BC70B00F556F1 /* NSManagedObject+Additions.h in CopyFiles */,
+				287B90F0177B547B00F556F1 /* NSError+XLAdditions.h in CopyFiles */,
+				B2FC9469177A14F800EF0172 /* XLCoreDataCollectionViewController.h in CopyFiles */,
+				28E313B51774D58300D6FCA0 /* XLCoreDataTableViewController.h in CopyFiles */,
+				28E313AE17734E3100D6FCA0 /* XLHideKeyboardTableView.h in CopyFiles */,
+				28E313AF17734E3100D6FCA0 /* XLHideKeyboardView.h in CopyFiles */,
+				28E313A5177204B000D6FCA0 /* UIView+XLAdditions.h in CopyFiles */,
+				28031D1B1771EFFE00FB6A61 /* UIImage+XLAdditions.h in CopyFiles */,
+				28031D171771ED5100FB6A61 /* NSString+XLAdditions.h in CopyFiles */,
+				28031CF0177115E600FB6A61 /* UILabel+XLAdditions.h in CopyFiles */,
+				28C8EE031770F19A00AFB98C /* XLKit.h in CopyFiles */,
+				B205533217A6EA0600C6530E /* XLTitledAndCancellableProgressView.h in CopyFiles */,
+				B2D2F34F17CBD28E00966016 /* XLCustomPickerView.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		0919A7571819B695001DFA37 /* XLSectionPageControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = XLSectionPageControl.h; path = View/XLSectionPageControl.h; sourceTree = "<group>"; };
+		0919A7581819B695001DFA37 /* XLSectionPageControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = XLSectionPageControl.m; path = View/XLSectionPageControl.m; sourceTree = "<group>"; };
+		0924F169181B2578003EB7DF /* XLBarButtonItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = XLBarButtonItem.h; path = View/XLBarButtonItem.h; sourceTree = "<group>"; };
+		0924F16A181B2578003EB7DF /* XLBarButtonItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = XLBarButtonItem.m; path = View/XLBarButtonItem.m; sourceTree = "<group>"; };
+		28031CED1771144A00FB6A61 /* UILabel+XLAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UILabel+XLAdditions.h"; path = "Category/UILabel+XLAdditions.h"; sourceTree = "<group>"; };
+		28031CEE1771144A00FB6A61 /* UILabel+XLAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UILabel+XLAdditions.m"; path = "Category/UILabel+XLAdditions.m"; sourceTree = "<group>"; };
+		28031D141771EBB200FB6A61 /* NSString+XLAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSString+XLAdditions.h"; path = "Category/NSString+XLAdditions.h"; sourceTree = "<group>"; };
+		28031D151771EBB200FB6A61 /* NSString+XLAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSString+XLAdditions.m"; path = "Category/NSString+XLAdditions.m"; sourceTree = "<group>"; };
+		28031D181771EF0B00FB6A61 /* UIImage+XLAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIImage+XLAdditions.h"; path = "Category/UIImage+XLAdditions.h"; sourceTree = "<group>"; };
+		28031D191771EF0B00FB6A61 /* UIImage+XLAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIImage+XLAdditions.m"; path = "Category/UIImage+XLAdditions.m"; sourceTree = "<group>"; };
+		28122C7618524E4400889C2D /* UITableViewController+XLAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UITableViewController+XLAdditions.h"; path = "Category/UITableViewController+XLAdditions.h"; sourceTree = "<group>"; };
+		28122C7718524E4400889C2D /* UITableViewController+XLAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UITableViewController+XLAdditions.m"; path = "Category/UITableViewController+XLAdditions.m"; sourceTree = "<group>"; };
+		282D6D4517A5EE19003FD6C3 /* XLCustomProgressView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = XLCustomProgressView.h; path = View/ProgressView/XLCustomProgressView.h; sourceTree = "<group>"; };
+		282D6D4617A5EE19003FD6C3 /* XLCustomProgressView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = XLCustomProgressView.m; path = View/ProgressView/XLCustomProgressView.m; sourceTree = "<group>"; };
+		283A63AA184630E8009128E2 /* NSObject+XLAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSObject+XLAdditions.h"; path = "Category/NSObject+XLAdditions.h"; sourceTree = "<group>"; };
+		283A63AB184630E8009128E2 /* NSObject+XLAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSObject+XLAdditions.m"; path = "Category/NSObject+XLAdditions.m"; sourceTree = "<group>"; };
+		284B177E17A9D479004146D1 /* UIApplication+XLAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIApplication+XLAdditions.h"; path = "Category/UIApplication+XLAdditions.h"; sourceTree = "<group>"; };
+		284B177F17A9D479004146D1 /* UIApplication+XLAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIApplication+XLAdditions.m"; path = "Category/UIApplication+XLAdditions.m"; sourceTree = "<group>"; };
+		284B179417AC86B5004146D1 /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Reachability.h; path = XLiOSKit_noARC/Reachability.h; sourceTree = SOURCE_ROOT; };
+		284B179517AC86B5004146D1 /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Reachability.m; path = XLiOSKit_noARC/Reachability.m; sourceTree = SOURCE_ROOT; };
+		28548B2B1787422F007B45D5 /* XLImageSubtitledView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = XLImageSubtitledView.h; path = View/NavigatorItem/XLImageSubtitledView.h; sourceTree = "<group>"; };
+		28548B2C1787422F007B45D5 /* XLImageSubtitledView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = XLImageSubtitledView.m; path = View/NavigatorItem/XLImageSubtitledView.m; sourceTree = "<group>"; };
+		286D6F34190AB6F40077BF2E /* NSDate+XLAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSDate+XLAdditions.h"; path = "Category/NSDate+XLAdditions.h"; sourceTree = "<group>"; };
+		286D6F35190AB6F40077BF2E /* NSDate+XLAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSDate+XLAdditions.m"; path = "Category/NSDate+XLAdditions.m"; sourceTree = "<group>"; };
+		2879CD1C18E0F89800B66A94 /* XLRightDetailTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = XLRightDetailTableViewCell.h; path = View/TableViewCell/XLRightDetailTableViewCell.h; sourceTree = "<group>"; };
+		2879CD1D18E0F89800B66A94 /* XLRightDetailTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = XLRightDetailTableViewCell.m; path = View/TableViewCell/XLRightDetailTableViewCell.m; sourceTree = "<group>"; };
+		2879CD2018E0F91900B66A94 /* XLButtonTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = XLButtonTableViewCell.h; path = View/TableViewCell/XLButtonTableViewCell.h; sourceTree = "<group>"; };
+		2879CD2118E0F91900B66A94 /* XLButtonTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = XLButtonTableViewCell.m; path = View/TableViewCell/XLButtonTableViewCell.m; sourceTree = "<group>"; };
+		287B90D0177A5F1700F556F1 /* NSError+XLAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSError+XLAdditions.h"; path = "Category/NSError+XLAdditions.h"; sourceTree = "<group>"; };
+		287B9157177BBBA500F556F1 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		287B9159177BBC3400F556F1 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		287B915B177BC4B500F556F1 /* NSManagedObject+Additions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSManagedObject+Additions.h"; path = "Category/NSManagedObject+Additions.h"; sourceTree = "<group>"; };
+		287B915C177BC4B500F556F1 /* NSManagedObject+Additions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSManagedObject+Additions.m"; path = "Category/NSManagedObject+Additions.m"; sourceTree = "<group>"; };
+		28A4F98E1844D6D400750792 /* UIDevice+XLAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIDevice+XLAdditions.h"; path = "Category/UIDevice+XLAdditions.h"; sourceTree = "<group>"; };
+		28A4F98F1844D6D400750792 /* UIDevice+XLAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIDevice+XLAdditions.m"; path = "Category/UIDevice+XLAdditions.m"; sourceTree = "<group>"; };
+		28B0368A1870FB9B00477BF5 /* UIViewController+XLAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIViewController+XLAdditions.h"; path = "Category/UIViewController+XLAdditions.h"; sourceTree = "<group>"; };
+		28B0368B1870FB9B00477BF5 /* UIViewController+XLAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIViewController+XLAdditions.m"; path = "Category/UIViewController+XLAdditions.m"; sourceTree = "<group>"; };
+		28BEA4BD1778C52A00CDA9D2 /* KeychainItemWrapper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = KeychainItemWrapper.h; path = ../XLiOSKit_noARC/KeychainItemWrapper.h; sourceTree = "<group>"; };
+		28BEA4BE1778C52A00CDA9D2 /* KeychainItemWrapper.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = KeychainItemWrapper.m; path = ../XLiOSKit_noARC/KeychainItemWrapper.m; sourceTree = "<group>"; };
+		28BEA4C71778EF7600CDA9D2 /* XLCoreDataCollectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = XLCoreDataCollectionViewController.h; path = CoreData/Collection/XLCoreDataCollectionViewController.h; sourceTree = "<group>"; };
+		28BEA4C81778EF7600CDA9D2 /* XLCoreDataCollectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; name = XLCoreDataCollectionViewController.m; path = CoreData/Collection/XLCoreDataCollectionViewController.m; sourceTree = "<group>"; };
+		28C8EDFA1770F19A00AFB98C /* libXLiOSKit.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libXLiOSKit.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		28C8EDFD1770F19A00AFB98C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		28C8EE011770F19A00AFB98C /* XLiOSKit-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "XLiOSKit-Prefix.pch"; sourceTree = "<group>"; };
+		28C8EE021770F19A00AFB98C /* XLKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XLKit.h; sourceTree = "<group>"; };
+		28C8EE041770F19A00AFB98C /* XLKit.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XLKit.m; sourceTree = "<group>"; };
+		28DF7761178B17B00025696D /* UIColor+XLAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIColor+XLAdditions.h"; path = "Category/UIColor+XLAdditions.h"; sourceTree = "<group>"; };
+		28DF7762178B17B00025696D /* UIColor+XLAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIColor+XLAdditions.m"; path = "Category/UIColor+XLAdditions.m"; sourceTree = "<group>"; };
+		28E313A21772044100D6FCA0 /* UIView+XLAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIView+XLAdditions.h"; path = "Category/UIView+XLAdditions.h"; sourceTree = "<group>"; };
+		28E313A31772044100D6FCA0 /* UIView+XLAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIView+XLAdditions.m"; path = "Category/UIView+XLAdditions.m"; sourceTree = "<group>"; };
+		28E313A617734CE200D6FCA0 /* XLHideKeyboardView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = XLHideKeyboardView.h; path = View/XLHideKeyboardView.h; sourceTree = "<group>"; };
+		28E313A717734CE200D6FCA0 /* XLHideKeyboardView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = XLHideKeyboardView.m; path = View/XLHideKeyboardView.m; sourceTree = "<group>"; };
+		28E313AA17734DC500D6FCA0 /* XLHideKeyboardTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = XLHideKeyboardTableView.h; path = View/XLHideKeyboardTableView.h; sourceTree = "<group>"; };
+		28E313AB17734DC500D6FCA0 /* XLHideKeyboardTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = XLHideKeyboardTableView.m; path = View/XLHideKeyboardTableView.m; sourceTree = "<group>"; };
+		28E313B21774D49000D6FCA0 /* XLCoreDataTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = XLCoreDataTableViewController.h; path = CoreData/Table/XLCoreDataTableViewController.h; sourceTree = "<group>"; };
+		28E313B31774D49000D6FCA0 /* XLCoreDataTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; name = XLCoreDataTableViewController.m; path = CoreData/Table/XLCoreDataTableViewController.m; sourceTree = "<group>"; };
+		28E313B61774E6E100D6FCA0 /* XLHideKeyboardScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = XLHideKeyboardScrollView.h; path = View/XLHideKeyboardScrollView.h; sourceTree = "<group>"; };
+		28E313B71774E6E100D6FCA0 /* XLHideKeyboardScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = XLHideKeyboardScrollView.m; path = View/XLHideKeyboardScrollView.m; sourceTree = "<group>"; };
+		28F037FC177DE68800DBE656 /* NSJSONSerialization+XLAdittions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSJSONSerialization+XLAdittions.h"; path = "Category/NSJSONSerialization+XLAdittions.h"; sourceTree = "<group>"; };
+		28F037FD177DE68800DBE656 /* NSJSONSerialization+XLAdittions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSJSONSerialization+XLAdittions.m"; path = "Category/NSJSONSerialization+XLAdittions.m"; sourceTree = "<group>"; };
+		28F03800177E136900DBE656 /* NSError+XLAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSError+XLAdditions.m"; path = "Category/NSError+XLAdditions.m"; sourceTree = "<group>"; };
+		28F03804177E3D7F00DBE656 /* XLNonRoutableNavigationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = XLNonRoutableNavigationViewController.h; path = Helper/XLNonRoutableNavigationViewController.h; sourceTree = "<group>"; };
+		28F03805177E3D7F00DBE656 /* XLNonRoutableNavigationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = XLNonRoutableNavigationViewController.m; path = Helper/XLNonRoutableNavigationViewController.m; sourceTree = "<group>"; };
+		28F49CAC1899FEE500A70660 /* ALAssetsLibrary+XLAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "ALAssetsLibrary+XLAdditions.h"; path = "Category/ALAssetsLibrary+XLAdditions.h"; sourceTree = "<group>"; };
+		28F49CAD1899FEE500A70660 /* ALAssetsLibrary+XLAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "ALAssetsLibrary+XLAdditions.m"; path = "Category/ALAssetsLibrary+XLAdditions.m"; sourceTree = "<group>"; };
+		28F49CB01899FF4800A70660 /* AssetsLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AssetsLibrary.framework; path = System/Library/Frameworks/AssetsLibrary.framework; sourceTree = SDKROOT; };
+		B2039D2E17CBA5A40092F0D5 /* XLCustomPickerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = XLCustomPickerView.h; path = ../../XLiOSKit/XLiOSKit/ViewController/Helper/XLCustomPickerView.h; sourceTree = "<group>"; };
+		B2039D2F17CBA5A40092F0D5 /* XLCustomPickerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = XLCustomPickerView.m; path = ../../XLiOSKit/XLiOSKit/ViewController/Helper/XLCustomPickerView.m; sourceTree = "<group>"; };
+		B205532F17A6C63900C6530E /* XLTitledAndCancellableProgressView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = XLTitledAndCancellableProgressView.h; path = ../../XLiOSKit/XLiOSKit/View/ProgressView/XLTitledAndCancellableProgressView.h; sourceTree = "<group>"; };
+		B205533017A6C63900C6530E /* XLTitledAndCancellableProgressView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = XLTitledAndCancellableProgressView.m; path = ../../XLiOSKit/XLiOSKit/View/ProgressView/XLTitledAndCancellableProgressView.m; sourceTree = "<group>"; };
+		B210EAF218400E6D008ECE35 /* XLSwipeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = XLSwipeView.h; path = View/XLSwipeView.h; sourceTree = "<group>"; };
+		B210EAF318400E6D008ECE35 /* XLSwipeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = XLSwipeView.m; path = View/XLSwipeView.m; sourceTree = "<group>"; };
+		B21984A617D6571E0049A1DD /* XLCustomSheetView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = XLCustomSheetView.h; path = View/XLCustomSheetView.h; sourceTree = "<group>"; };
+		B21984A717D6571E0049A1DD /* XLCustomSheetView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = XLCustomSheetView.m; path = View/XLCustomSheetView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		28C8EDF71770F19A00AFB98C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28F49CB11899FF4800A70660 /* AssetsLibrary.framework in Frameworks */,
+				287B915A177BBC3400F556F1 /* SystemConfiguration.framework in Frameworks */,
+				287B9158177BBBA500F556F1 /* MobileCoreServices.framework in Frameworks */,
+				28C8EDFE1770F19A00AFB98C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		28031CFE1771214A00FB6A61 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				28F03803177E3CC900DBE656 /* Helper */,
+				28E313B01774D46700D6FCA0 /* CoreData */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		282D6D4217A5ED7D003FD6C3 /* ProgressView */ = {
+			isa = PBXGroup;
+			children = (
+				282D6D4517A5EE19003FD6C3 /* XLCustomProgressView.h */,
+				282D6D4617A5EE19003FD6C3 /* XLCustomProgressView.m */,
+				B205532F17A6C63900C6530E /* XLTitledAndCancellableProgressView.h */,
+				B205533017A6C63900C6530E /* XLTitledAndCancellableProgressView.m */,
+			);
+			name = ProgressView;
+			sourceTree = "<group>";
+		};
+		284B179317AC86B5004146D1 /* Reachability */ = {
+			isa = PBXGroup;
+			children = (
+				284B179417AC86B5004146D1 /* Reachability.h */,
+				284B179517AC86B5004146D1 /* Reachability.m */,
+			);
+			name = Reachability;
+			path = Helper/Reachability;
+			sourceTree = "<group>";
+		};
+		28548B2A178741B3007B45D5 /* NavigatorView */ = {
+			isa = PBXGroup;
+			children = (
+				28548B2B1787422F007B45D5 /* XLImageSubtitledView.h */,
+				28548B2C1787422F007B45D5 /* XLImageSubtitledView.m */,
+			);
+			name = NavigatorView;
+			sourceTree = "<group>";
+		};
+		2879CD1B18E0F7E100B66A94 /* TableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				2879CD2018E0F91900B66A94 /* XLButtonTableViewCell.h */,
+				2879CD2118E0F91900B66A94 /* XLButtonTableViewCell.m */,
+				2879CD1C18E0F89800B66A94 /* XLRightDetailTableViewCell.h */,
+				2879CD1D18E0F89800B66A94 /* XLRightDetailTableViewCell.m */,
+			);
+			name = TableViewCell;
+			sourceTree = "<group>";
+		};
+		28AE9D9217A1C13E0029EC02 /* Table */ = {
+			isa = PBXGroup;
+			children = (
+				28E313B21774D49000D6FCA0 /* XLCoreDataTableViewController.h */,
+				28E313B31774D49000D6FCA0 /* XLCoreDataTableViewController.m */,
+			);
+			name = Table;
+			sourceTree = "<group>";
+		};
+		28BEA4B01778906900CDA9D2 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				284B179317AC86B5004146D1 /* Reachability */,
+				28BEA4B91778B19600CDA9D2 /* Keychain */,
+			);
+			name = Helper;
+			sourceTree = "<group>";
+		};
+		28BEA4B91778B19600CDA9D2 /* Keychain */ = {
+			isa = PBXGroup;
+			children = (
+				28BEA4BD1778C52A00CDA9D2 /* KeychainItemWrapper.h */,
+				28BEA4BE1778C52A00CDA9D2 /* KeychainItemWrapper.m */,
+			);
+			name = Keychain;
+			sourceTree = "<group>";
+		};
+		28BEA4C61778EF2F00CDA9D2 /* Collection */ = {
+			isa = PBXGroup;
+			children = (
+				28BEA4C71778EF7600CDA9D2 /* XLCoreDataCollectionViewController.h */,
+				28BEA4C81778EF7600CDA9D2 /* XLCoreDataCollectionViewController.m */,
+			);
+			name = Collection;
+			sourceTree = "<group>";
+		};
+		28C8EDF11770F19A00AFB98C = {
+			isa = PBXGroup;
+			children = (
+				28C8EDFF1770F19A00AFB98C /* XLiOSKit */,
+				28C8EDFC1770F19A00AFB98C /* Frameworks */,
+				28C8EDFB1770F19A00AFB98C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		28C8EDFB1770F19A00AFB98C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				28C8EDFA1770F19A00AFB98C /* libXLiOSKit.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		28C8EDFC1770F19A00AFB98C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				28F49CB01899FF4800A70660 /* AssetsLibrary.framework */,
+				287B9159177BBC3400F556F1 /* SystemConfiguration.framework */,
+				287B9157177BBBA500F556F1 /* MobileCoreServices.framework */,
+				28C8EDFD1770F19A00AFB98C /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		28C8EDFF1770F19A00AFB98C /* XLiOSKit */ = {
+			isa = PBXGroup;
+			children = (
+				28BEA4B01778906900CDA9D2 /* Helper */,
+				28E313A917734D5400D6FCA0 /* View */,
+				28031CFE1771214A00FB6A61 /* ViewController */,
+				28C8EE0B1770F1B800AFB98C /* Category */,
+				28C8EE021770F19A00AFB98C /* XLKit.h */,
+				28C8EE041770F19A00AFB98C /* XLKit.m */,
+				28C8EE001770F19A00AFB98C /* Supporting Files */,
+			);
+			path = XLiOSKit;
+			sourceTree = "<group>";
+		};
+		28C8EE001770F19A00AFB98C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				28C8EE011770F19A00AFB98C /* XLiOSKit-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		28C8EE0B1770F1B800AFB98C /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				28A4F98E1844D6D400750792 /* UIDevice+XLAdditions.h */,
+				28A4F98F1844D6D400750792 /* UIDevice+XLAdditions.m */,
+				28F03800177E136900DBE656 /* NSError+XLAdditions.m */,
+				28031CED1771144A00FB6A61 /* UILabel+XLAdditions.h */,
+				28031CEE1771144A00FB6A61 /* UILabel+XLAdditions.m */,
+				28031D141771EBB200FB6A61 /* NSString+XLAdditions.h */,
+				28031D151771EBB200FB6A61 /* NSString+XLAdditions.m */,
+				28031D181771EF0B00FB6A61 /* UIImage+XLAdditions.h */,
+				28031D191771EF0B00FB6A61 /* UIImage+XLAdditions.m */,
+				28E313A21772044100D6FCA0 /* UIView+XLAdditions.h */,
+				28E313A31772044100D6FCA0 /* UIView+XLAdditions.m */,
+				287B90D0177A5F1700F556F1 /* NSError+XLAdditions.h */,
+				287B915B177BC4B500F556F1 /* NSManagedObject+Additions.h */,
+				287B915C177BC4B500F556F1 /* NSManagedObject+Additions.m */,
+				28F037FC177DE68800DBE656 /* NSJSONSerialization+XLAdittions.h */,
+				28F037FD177DE68800DBE656 /* NSJSONSerialization+XLAdittions.m */,
+				28DF7761178B17B00025696D /* UIColor+XLAdditions.h */,
+				28DF7762178B17B00025696D /* UIColor+XLAdditions.m */,
+				284B177E17A9D479004146D1 /* UIApplication+XLAdditions.h */,
+				284B177F17A9D479004146D1 /* UIApplication+XLAdditions.m */,
+				283A63AA184630E8009128E2 /* NSObject+XLAdditions.h */,
+				283A63AB184630E8009128E2 /* NSObject+XLAdditions.m */,
+				28122C7618524E4400889C2D /* UITableViewController+XLAdditions.h */,
+				28122C7718524E4400889C2D /* UITableViewController+XLAdditions.m */,
+				28B0368A1870FB9B00477BF5 /* UIViewController+XLAdditions.h */,
+				28B0368B1870FB9B00477BF5 /* UIViewController+XLAdditions.m */,
+				28F49CAC1899FEE500A70660 /* ALAssetsLibrary+XLAdditions.h */,
+				28F49CAD1899FEE500A70660 /* ALAssetsLibrary+XLAdditions.m */,
+				286D6F34190AB6F40077BF2E /* NSDate+XLAdditions.h */,
+				286D6F35190AB6F40077BF2E /* NSDate+XLAdditions.m */,
+			);
+			name = Category;
+			sourceTree = "<group>";
+		};
+		28E313A917734D5400D6FCA0 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				2879CD1B18E0F7E100B66A94 /* TableViewCell */,
+				282D6D4217A5ED7D003FD6C3 /* ProgressView */,
+				28548B2A178741B3007B45D5 /* NavigatorView */,
+				28E313AA17734DC500D6FCA0 /* XLHideKeyboardTableView.h */,
+				28E313AB17734DC500D6FCA0 /* XLHideKeyboardTableView.m */,
+				28E313A617734CE200D6FCA0 /* XLHideKeyboardView.h */,
+				28E313A717734CE200D6FCA0 /* XLHideKeyboardView.m */,
+				28E313B61774E6E100D6FCA0 /* XLHideKeyboardScrollView.h */,
+				28E313B71774E6E100D6FCA0 /* XLHideKeyboardScrollView.m */,
+				B2039D2E17CBA5A40092F0D5 /* XLCustomPickerView.h */,
+				B2039D2F17CBA5A40092F0D5 /* XLCustomPickerView.m */,
+				B21984A617D6571E0049A1DD /* XLCustomSheetView.h */,
+				B21984A717D6571E0049A1DD /* XLCustomSheetView.m */,
+				0919A7571819B695001DFA37 /* XLSectionPageControl.h */,
+				0919A7581819B695001DFA37 /* XLSectionPageControl.m */,
+				0924F169181B2578003EB7DF /* XLBarButtonItem.h */,
+				0924F16A181B2578003EB7DF /* XLBarButtonItem.m */,
+				B210EAF218400E6D008ECE35 /* XLSwipeView.h */,
+				B210EAF318400E6D008ECE35 /* XLSwipeView.m */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		28E313B01774D46700D6FCA0 /* CoreData */ = {
+			isa = PBXGroup;
+			children = (
+				28AE9D9217A1C13E0029EC02 /* Table */,
+				28BEA4C61778EF2F00CDA9D2 /* Collection */,
+			);
+			name = CoreData;
+			sourceTree = "<group>";
+		};
+		28F03803177E3CC900DBE656 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				28F03804177E3D7F00DBE656 /* XLNonRoutableNavigationViewController.h */,
+				28F03805177E3D7F00DBE656 /* XLNonRoutableNavigationViewController.m */,
+			);
+			name = Helper;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		28BCC80918B691F1008D2923 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28BCC80C18B692A5008D2923 /* XLCustomProgressView.h in Headers */,
+				28BCC80D18B692A5008D2923 /* XLTitledAndCancellableProgressView.h in Headers */,
+				28BCC80E18B692A5008D2923 /* XLImageSubtitledView.h in Headers */,
+				28BCC81618B692A5008D2923 /* XLHideKeyboardTableView.h in Headers */,
+				28BCC81718B692A5008D2923 /* XLHideKeyboardView.h in Headers */,
+				28BCC81818B692A5008D2923 /* XLHideKeyboardScrollView.h in Headers */,
+				28BCC81918B692A5008D2923 /* XLCustomPickerView.h in Headers */,
+				28BCC81A18B692A5008D2923 /* XLCustomSheetView.h in Headers */,
+				28BCC81B18B692A5008D2923 /* XLSectionPageControl.h in Headers */,
+				28BCC81C18B692A5008D2923 /* XLBarButtonItem.h in Headers */,
+				2879CD1E18E0F89800B66A94 /* XLRightDetailTableViewCell.h in Headers */,
+				28BCC81D18B692A5008D2923 /* XLSwipeView.h in Headers */,
+				2879CD2218E0F91900B66A94 /* XLButtonTableViewCell.h in Headers */,
+				286D6F36190AB6F40077BF2E /* NSDate+XLAdditions.h in Headers */,
+				28BCC81F18B692A5008D2923 /* XLNonRoutableNavigationViewController.h in Headers */,
+				28BCC82018B692A5008D2923 /* XLCoreDataTableViewController.h in Headers */,
+				28BCC82118B692A5008D2923 /* XLCoreDataCollectionViewController.h in Headers */,
+				28BCC82618B692A5008D2923 /* UIDevice+XLAdditions.h in Headers */,
+				28BCC82718B692A5008D2923 /* UILabel+XLAdditions.h in Headers */,
+				28BCC82818B692A5008D2923 /* NSString+XLAdditions.h in Headers */,
+				28BCC82918B692A5008D2923 /* UIImage+XLAdditions.h in Headers */,
+				28BCC82A18B692A5008D2923 /* UIView+XLAdditions.h in Headers */,
+				28BCC82B18B692A5008D2923 /* NSError+XLAdditions.h in Headers */,
+				28BCC82C18B692A5008D2923 /* NSManagedObject+Additions.h in Headers */,
+				28BCC82D18B692A5008D2923 /* NSJSONSerialization+XLAdittions.h in Headers */,
+				28BCC82E18B692A5008D2923 /* UIColor+XLAdditions.h in Headers */,
+				28BCC82F18B692A5008D2923 /* NSObject+XLAdditions.h in Headers */,
+				28BCC83018B692A5008D2923 /* UITableViewController+XLAdditions.h in Headers */,
+				28BCC83118B692A5008D2923 /* UIViewController+XLAdditions.h in Headers */,
+				28BCC84018B69B41008D2923 /* UIApplication+XLAdditions.h in Headers */,
+				28BCC83218B692A5008D2923 /* ALAssetsLibrary+XLAdditions.h in Headers */,
+				28BCC83318B692A5008D2923 /* XLKit.h in Headers */,
+				28BCC83418B692C1008D2923 /* Reachability.h in Headers */,
+				28BCC83518B692C1008D2923 /* KeychainItemWrapper.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		28C8EDF91770F19A00AFB98C /* XLiOSKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 28C8EE081770F19A00AFB98C /* Build configuration list for PBXNativeTarget "XLiOSKit" */;
+			buildPhases = (
+				28C8EDF61770F19A00AFB98C /* Sources */,
+				28C8EDF71770F19A00AFB98C /* Frameworks */,
+				28C8EDF81770F19A00AFB98C /* CopyFiles */,
+				28C2164B17CD7394009FF6E4 /* Build Universal Library */,
+				28BCC80918B691F1008D2923 /* Headers */,
+				28BCC83618B695EE008D2923 /* Prepare Framework */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = XLiOSKit;
+			productName = XLiOSKit;
+			productReference = 28C8EDFA1770F19A00AFB98C /* libXLiOSKit.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		28C8EDF21770F19A00AFB98C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = Xmartlabs;
+			};
+			buildConfigurationList = 28C8EDF51770F19A00AFB98C /* Build configuration list for PBXProject "XLiOSKit" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 28C8EDF11770F19A00AFB98C;
+			productRefGroup = 28C8EDFB1770F19A00AFB98C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				28C8EDF91770F19A00AFB98C /* XLiOSKit */,
+				28BCC83718B697C0008D2923 /* Framework */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		28BCC83618B695EE008D2923 /* Prepare Framework */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Prepare Framework";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e\n\nmkdir -p \"${BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.framework/Versions/A/Headers\"\n\n# Link the \"Current\" version to \"A\"\n/bin/ln -sfh A \"${BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.framework/Versions/Current\"\n/bin/ln -sfh Versions/Current/Headers \"${BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.framework/Headers\"\n/bin/ln -sfh \"Versions/Current/${PRODUCT_NAME}\" \"${BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.framework/${PRODUCT_NAME}\"\n\n# The -a ensures that the headers maintain the source modification date so that we don't constantly\n# cause propagating rebuilds of files that import these headers.\n/bin/cp -a \"${TARGET_BUILD_DIR}/${PUBLIC_HEADERS_FOLDER_PATH}/\" \"${BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.framework/Versions/A/Headers\"";
+		};
+		28BCC83D18B6983D008D2923 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e\nset +u\n# Avoid recursively calling this script.\nif [[ $SF_MASTER_SCRIPT_RUNNING ]]\nthen\nexit 0\nfi\nset -u\nexport SF_MASTER_SCRIPT_RUNNING=1\n\nSF_TARGET_NAME=${PROJECT_NAME}\nSF_EXECUTABLE_PATH=\"lib${SF_TARGET_NAME}.a\"\nSF_WRAPPER_NAME=\"${SF_TARGET_NAME}.framework\"\n\n# The following conditionals come from\n# https://github.com/kstenerud/iOS-Universal-Framework\n\nif [[ \"$SDK_NAME\" =~ ([A-Za-z]+) ]]\nthen\nSF_SDK_PLATFORM=${BASH_REMATCH[1]}\nelse\necho \"Could not find platform name from SDK_NAME: $SDK_NAME\"\nexit 1\nfi\n\nif [[ \"$SDK_NAME\" =~ ([0-9]+.*$) ]]\nthen\nSF_SDK_VERSION=${BASH_REMATCH[1]}\nelse\necho \"Could not find sdk version from SDK_NAME: $SDK_NAME\"\nexit 1\nfi\n\nif [[ \"$SF_SDK_PLATFORM\" = \"iphoneos\" ]]\nthen\nSF_OTHER_PLATFORM=iphonesimulator\nelse\nSF_OTHER_PLATFORM=iphoneos\nfi\n\nif [[ \"$BUILT_PRODUCTS_DIR\" =~ (.*)$SF_SDK_PLATFORM$ ]]\nthen\nSF_OTHER_BUILT_PRODUCTS_DIR=\"${BASH_REMATCH[1]}${SF_OTHER_PLATFORM}\"\nelse\necho \"Could not find platform name from build products directory: $BUILT_PRODUCTS_DIR\"\nexit 1\nfi\n\n# Build the other platform.\nxcrun xcodebuild -project \"${PROJECT_FILE_PATH}\" -target \"${TARGET_NAME}\" -configuration \"${CONFIGURATION}\" -sdk ${SF_OTHER_PLATFORM}${SF_SDK_VERSION} BUILD_DIR=\"${BUILD_DIR}\" OBJROOT=\"${OBJROOT}\" BUILD_ROOT=\"${BUILD_ROOT}\" SYMROOT=\"${SYMROOT}\" $ACTION\n\n# Smash the two static libraries into one fat binary and store it in the .framework\nxcrun lipo -create \"${BUILT_PRODUCTS_DIR}/${SF_EXECUTABLE_PATH}\" \"${SF_OTHER_BUILT_PRODUCTS_DIR}/${SF_EXECUTABLE_PATH}\" -output \"${BUILT_PRODUCTS_DIR}/${SF_WRAPPER_NAME}/Versions/A/${SF_TARGET_NAME}\"\n\n# Copy the binary to the other architecture folder to have a complete framework in both.\ncp -a \"${BUILT_PRODUCTS_DIR}/${SF_WRAPPER_NAME}/Versions/A/${SF_TARGET_NAME}\" \"${SF_OTHER_BUILT_PRODUCTS_DIR}/${SF_WRAPPER_NAME}/Versions/A/${SF_TARGET_NAME}\"";
+		};
+		28C2164B17CD7394009FF6E4 /* Build Universal Library */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Build Universal Library";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "#if [ \"$FIRST_COMPILE\" = \"1\" ]\n#then\n# Avoid to execute again this script while compile the other platform\n#export FIRST_COMPILE=\"\"\n#else\n# Set a flag to just compile once the other platform. When xcodebuild is called from this script, this scripts is executed again.\n#export FIRST_COMPILE=\"1\"\n#if [ \"${ACTION}\" = \"build\" ]\n#then\n\n#cd \"${PROJECT_DIR}\"\n\n#CONFIGURATION_BUILD_SIMULATOR_DIR=${BUILD_DIR}/${CONFIGURATION}-iphonesimulator\n#CONFIGURATION_BUILD_DEVICE_DIR=${BUILD_DIR}/${CONFIGURATION}-iphoneos\n\n#if [ \"${EFFECTIVE_PLATFORM_NAME}\" = \"-iphonesimulator\" ]\n#then\n#xcodebuild -project ${PROJECT_NAME}.xcodeproj -sdk iphoneos -target \"XLiOSKit\" -configuration ${CONFIGURATION} build CONFIGURATION_BUILD_DIR=${CONFIGURATION_BUILD_DEVICE_DIR}\n#else\n#xcodebuild -project ${PROJECT_NAME}.xcodeproj -sdk iphonesimulator -target \"XLiOSKit\" -configuration ${CONFIGURATION} build CONFIGURATION_BUILD_DIR=${CONFIGURATION_BUILD_SIMULATOR_DIR}\n\n\n#fi\n\n\n\n#lipo -create \"${CONFIGURATION_BUILD_DEVICE_DIR}/lib${PROJECT_NAME}.a\" \"${CONFIGURATION_BUILD_SIMULATOR_DIR}/lib${PROJECT_NAME}.a\" -o \"${PROJECT_DIR}/lib${PROJECT_NAME}.a\"\n#fi\n\n#fi";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		28C8EDF61770F19A00AFB98C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28BEA4BF1778C57F00CDA9D2 /* KeychainItemWrapper.m in Sources */,
+				28C8EE051770F19A00AFB98C /* XLKit.m in Sources */,
+				2879CD2318E0F91900B66A94 /* XLButtonTableViewCell.m in Sources */,
+				28031CEF1771144A00FB6A61 /* UILabel+XLAdditions.m in Sources */,
+				28031D161771EBB200FB6A61 /* NSString+XLAdditions.m in Sources */,
+				2879CD1F18E0F89800B66A94 /* XLRightDetailTableViewCell.m in Sources */,
+				28031D1A1771EF0B00FB6A61 /* UIImage+XLAdditions.m in Sources */,
+				0919A7591819B695001DFA37 /* XLSectionPageControl.m in Sources */,
+				28E313A41772044100D6FCA0 /* UIView+XLAdditions.m in Sources */,
+				28E313A817734CE300D6FCA0 /* XLHideKeyboardView.m in Sources */,
+				28B0368C1870FB9B00477BF5 /* UIViewController+XLAdditions.m in Sources */,
+				28E313AC17734DC500D6FCA0 /* XLHideKeyboardTableView.m in Sources */,
+				28E313B41774D49000D6FCA0 /* XLCoreDataTableViewController.m in Sources */,
+				28E313B81774E6E100D6FCA0 /* XLHideKeyboardScrollView.m in Sources */,
+				283A63AC184630E8009128E2 /* NSObject+XLAdditions.m in Sources */,
+				28122C7818524E4400889C2D /* UITableViewController+XLAdditions.m in Sources */,
+				286D6F37190AB6F40077BF2E /* NSDate+XLAdditions.m in Sources */,
+				28BEA4C91778EF7600CDA9D2 /* XLCoreDataCollectionViewController.m in Sources */,
+				287B915D177BC4B500F556F1 /* NSManagedObject+Additions.m in Sources */,
+				28F037FE177DE68800DBE656 /* NSJSONSerialization+XLAdittions.m in Sources */,
+				28F03801177E136900DBE656 /* NSError+XLAdditions.m in Sources */,
+				28F03806177E3D7F00DBE656 /* XLNonRoutableNavigationViewController.m in Sources */,
+				28548B2D1787422F007B45D5 /* XLImageSubtitledView.m in Sources */,
+				28DF7763178B17B00025696D /* UIColor+XLAdditions.m in Sources */,
+				282D6D4817A5EE19003FD6C3 /* XLCustomProgressView.m in Sources */,
+				B205533117A6C63900C6530E /* XLTitledAndCancellableProgressView.m in Sources */,
+				284B178017A9D479004146D1 /* UIApplication+XLAdditions.m in Sources */,
+				28F49CAE1899FEE500A70660 /* ALAssetsLibrary+XLAdditions.m in Sources */,
+				284B179617AC86B5004146D1 /* Reachability.m in Sources */,
+				28A4F9901844D6D400750792 /* UIDevice+XLAdditions.m in Sources */,
+				0924F16B181B2578003EB7DF /* XLBarButtonItem.m in Sources */,
+				B2039D3017CBA5A40092F0D5 /* XLCustomPickerView.m in Sources */,
+				B21984A817D6571E0049A1DD /* XLCustomSheetView.m in Sources */,
+				B210EAF418400E6D008ECE35 /* XLSwipeView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		28BCC83C18B697D3008D2923 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 28C8EDF91770F19A00AFB98C /* XLiOSKit */;
+			targetProxy = 28BCC83B18B697D3008D2923 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		28BCC83918B697C0008D2923 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		28BCC83A18B697C0008D2923 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		28C8EE061770F19A00AFB98C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				PUBLIC_HEADERS_FOLDER_PATH = "$(PROJECT_NAME)Headers";
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		28C8EE071770F19A00AFB98C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				PUBLIC_HEADERS_FOLDER_PATH = "$(PROJECT_NAME)Headers";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		28C8EE091770F19A00AFB98C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/XLiOSKit.dst;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+					"\"$(SRCROOT)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "XLiOSKit/XLiOSKit-Prefix.pch";
+				INFOPLIST_OTHER_PREPROCESSOR_FLAGS = "$(inherited)";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		28C8EE0A1770F19A00AFB98C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/XLiOSKit.dst;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+					"\"$(SRCROOT)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "XLiOSKit/XLiOSKit-Prefix.pch";
+				INFOPLIST_OTHER_PREPROCESSOR_FLAGS = "$(inherited)";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		28BCC83818B697C0008D2923 /* Build configuration list for PBXAggregateTarget "Framework" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				28BCC83918B697C0008D2923 /* Debug */,
+				28BCC83A18B697C0008D2923 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		28C8EDF51770F19A00AFB98C /* Build configuration list for PBXProject "XLiOSKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				28C8EE061770F19A00AFB98C /* Debug */,
+				28C8EE071770F19A00AFB98C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		28C8EE081770F19A00AFB98C /* Build configuration list for PBXNativeTarget "XLiOSKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				28C8EE091770F19A00AFB98C /* Debug */,
+				28C8EE0A1770F19A00AFB98C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 28C8EDF21770F19A00AFB98C /* Project object */;
+}
