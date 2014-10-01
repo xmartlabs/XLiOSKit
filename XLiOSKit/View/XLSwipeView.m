@@ -148,6 +148,11 @@
     [self.scrollView setContentSize:CGSizeMake(pageView.frame.size.width * _pages.count, pageView.frame.size.height)];
 }
 
+- (void)setScrollViewWithBounces:(BOOL)bounces
+{
+    [self.scrollView setBounces:bounces];
+}
+
 - (void)pageIndicatorTintColor:(UIColor*)color
 {
     self.pageControl.pageIndicatorTintColor = color;

@@ -35,6 +35,7 @@ typedef enum {
 - (id)initWithPages:(NSArray *)pagesArray;
 - (id)initWithPages:(NSArray *)pagesArray pageControlPosition:(XLSwipeViewPageControlPosition)pageControlPosition;
 - (void)setPages:(NSArray *)pagesArray;
+- (void)setScrollViewWithBounces:(BOOL)bounces;
 - (void)pageIndicatorTintColor:(UIColor*)color;
 - (void)currentPageIndicatorTintColor:(UIColor *)color;
 - (UIView *)getCurrentPage;
