@@ -27,6 +27,5 @@
 @interface UIDevice (XLAdditions)
 
 +(BOOL)isPad;
-+(BOOL)isFourInch;
 
 @end

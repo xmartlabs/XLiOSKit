@@ -31,9 +31,4 @@
     return [[UIDevice currentDevice] userInterfaceIdiom] == UIUserInterfaceIdiomPad;
 }
 
-+(BOOL)isFourInch
-{
-    return [UIScreen mainScreen].bounds.size.height == 568.0f;
-}
-
 @end
