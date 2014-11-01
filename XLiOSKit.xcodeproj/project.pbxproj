@@ -55,6 +55,8 @@
 		287B915E177BC70B00F556F1 /* NSManagedObject+Additions.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 287B915B177BC4B500F556F1 /* NSManagedObject+Additions.h */; };
 		28A4F9901844D6D400750792 /* UIDevice+XLAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 28A4F98F1844D6D400750792 /* UIDevice+XLAdditions.m */; };
 		28A4F9911844D73200750792 /* UIDevice+XLAdditions.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 28A4F98E1844D6D400750792 /* UIDevice+XLAdditions.h */; };
+		28A5E6841A05A5C900B3F15A /* UIButton+XLAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 28A5E6821A05A5C900B3F15A /* UIButton+XLAdditions.h */; };
+		28A5E6851A05A5C900B3F15A /* UIButton+XLAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 28A5E6831A05A5C900B3F15A /* UIButton+XLAdditions.m */; };
 		28B0368C1870FB9B00477BF5 /* UIViewController+XLAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 28B0368B1870FB9B00477BF5 /* UIViewController+XLAdditions.m */; };
 		28B2EF6917834078002B2641 /* KeychainItemWrapper.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 28BEA4BD1778C52A00CDA9D2 /* KeychainItemWrapper.h */; };
 		28BCC80C18B692A5008D2923 /* XLCustomProgressView.h in Headers */ = {isa = PBXBuildFile; fileRef = 282D6D4517A5EE19003FD6C3 /* XLCustomProgressView.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -204,6 +206,8 @@
 		287B915C177BC4B500F556F1 /* NSManagedObject+Additions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSManagedObject+Additions.m"; path = "Category/NSManagedObject+Additions.m"; sourceTree = "<group>"; };
 		28A4F98E1844D6D400750792 /* UIDevice+XLAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIDevice+XLAdditions.h"; path = "Category/UIDevice+XLAdditions.h"; sourceTree = "<group>"; };
 		28A4F98F1844D6D400750792 /* UIDevice+XLAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIDevice+XLAdditions.m"; path = "Category/UIDevice+XLAdditions.m"; sourceTree = "<group>"; };
+		28A5E6821A05A5C900B3F15A /* UIButton+XLAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIButton+XLAdditions.h"; path = "Category/UIButton+XLAdditions.h"; sourceTree = "<group>"; };
+		28A5E6831A05A5C900B3F15A /* UIButton+XLAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIButton+XLAdditions.m"; path = "Category/UIButton+XLAdditions.m"; sourceTree = "<group>"; };
 		28B0368A1870FB9B00477BF5 /* UIViewController+XLAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIViewController+XLAdditions.h"; path = "Category/UIViewController+XLAdditions.h"; sourceTree = "<group>"; };
 		28B0368B1870FB9B00477BF5 /* UIViewController+XLAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIViewController+XLAdditions.m"; path = "Category/UIViewController+XLAdditions.m"; sourceTree = "<group>"; };
 		28BEA4BD1778C52A00CDA9D2 /* KeychainItemWrapper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = KeychainItemWrapper.h; path = ../XLiOSKit_noARC/KeychainItemWrapper.h; sourceTree = "<group>"; };
@@ -429,6 +433,8 @@
 				28F49CAD1899FEE500A70660 /* ALAssetsLibrary+XLAdditions.m */,
 				286D6F34190AB6F40077BF2E /* NSDate+XLAdditions.h */,
 				286D6F35190AB6F40077BF2E /* NSDate+XLAdditions.m */,
+				28A5E6821A05A5C900B3F15A /* UIButton+XLAdditions.h */,
+				28A5E6831A05A5C900B3F15A /* UIButton+XLAdditions.m */,
 			);
 			name = Category;
 			sourceTree = "<group>";
@@ -501,6 +507,7 @@
 				28BCC81F18B692A5008D2923 /* XLNonRoutableNavigationViewController.h in Headers */,
 				28BCC82018B692A5008D2923 /* XLCoreDataTableViewController.h in Headers */,
 				28BCC82118B692A5008D2923 /* XLCoreDataCollectionViewController.h in Headers */,
+				28A5E6841A05A5C900B3F15A /* UIButton+XLAdditions.h in Headers */,
 				28BCC82618B692A5008D2923 /* UIDevice+XLAdditions.h in Headers */,
 				28BCC82718B692A5008D2923 /* UILabel+XLAdditions.h in Headers */,
 				28BCC82818B692A5008D2923 /* NSString+XLAdditions.h in Headers */,
@@ -653,6 +660,7 @@
 				28A4F9901844D6D400750792 /* UIDevice+XLAdditions.m in Sources */,
 				0924F16B181B2578003EB7DF /* XLBarButtonItem.m in Sources */,
 				B2039D3017CBA5A40092F0D5 /* XLCustomPickerView.m in Sources */,
+				28A5E6851A05A5C900B3F15A /* UIButton+XLAdditions.m in Sources */,
 				B21984A817D6571E0049A1DD /* XLCustomSheetView.m in Sources */,
 				B210EAF418400E6D008ECE35 /* XLSwipeView.m in Sources */,
 			);

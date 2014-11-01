@@ -43,5 +43,6 @@
 - (UIView *)findFirstResponder;
 
 -(UIView *)superviewOfType:(Class)superviewClass;
+-(UIView *)subviewOfType:(Class)subviewClass;
 
 @end

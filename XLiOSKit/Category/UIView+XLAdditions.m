@@ -109,4 +109,18 @@
     return [self.superview superviewOfType:superviewClass];
 }
 
+-(UIView *)subviewOfType:(Class)subviewClass
+{
+    if ([self isKindOfClass:subviewClass]) {
+        return self;
+    }
+    for (UIView *subView in self.subviews) {
+        UIView *view = [subView subviewOfType:subviewClass];
+        if (view) {
+            return view;
+        }
+    }
+    return nil;
+}
+
 @end
