@@ -13,6 +13,8 @@
 -(UIActivityIndicatorView *)addActivityIndicatorWithStyle:(UIActivityIndicatorViewStyle)style
 {
     [self setTitle:@"" forState:UIControlStateDisabled];
+    NSAttributedString *attributedText = [[NSAttributedString alloc] initWithString:@"" attributes:@{}];
+    [self setAttributedTitle:attributedText forState:UIControlStateDisabled];
     self.enabled = NO;
     UIActivityIndicatorView * activityIndicator = [[UIActivityIndicatorView alloc] initWithActivityIndicatorStyle:style];
     [activityIndicator startAnimating];

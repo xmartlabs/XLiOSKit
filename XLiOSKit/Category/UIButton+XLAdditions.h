@@ -10,4 +10,7 @@
 
 @interface UIButton (XLAdditions)
 
+-(UIActivityIndicatorView *)addActivityIndicatorWithStyle:(UIActivityIndicatorViewStyle)style;
+-(void)removeActivityIndicator;
+
 @end
