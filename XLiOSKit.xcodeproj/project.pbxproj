@@ -71,8 +71,6 @@
 		28BCC81C18B692A5008D2923 /* XLBarButtonItem.h in Headers */ = {isa = PBXBuildFile; fileRef = 0924F169181B2578003EB7DF /* XLBarButtonItem.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		28BCC81D18B692A5008D2923 /* XLSwipeView.h in Headers */ = {isa = PBXBuildFile; fileRef = B210EAF218400E6D008ECE35 /* XLSwipeView.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		28BCC81F18B692A5008D2923 /* XLNonRoutableNavigationViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 28F03804177E3D7F00DBE656 /* XLNonRoutableNavigationViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		28BCC82018B692A5008D2923 /* XLCoreDataTableViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 28E313B21774D49000D6FCA0 /* XLCoreDataTableViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		28BCC82118B692A5008D2923 /* XLCoreDataCollectionViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 28BEA4C71778EF7600CDA9D2 /* XLCoreDataCollectionViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		28BCC82618B692A5008D2923 /* UIDevice+XLAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 28A4F98E1844D6D400750792 /* UIDevice+XLAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		28BCC82718B692A5008D2923 /* UILabel+XLAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 28031CED1771144A00FB6A61 /* UILabel+XLAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		28BCC82818B692A5008D2923 /* NSString+XLAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 28031D141771EBB200FB6A61 /* NSString+XLAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -91,7 +89,6 @@
 		28BCC83518B692C1008D2923 /* KeychainItemWrapper.h in Headers */ = {isa = PBXBuildFile; fileRef = 28BEA4BD1778C52A00CDA9D2 /* KeychainItemWrapper.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		28BCC84018B69B41008D2923 /* UIApplication+XLAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 284B177E17A9D479004146D1 /* UIApplication+XLAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		28BEA4BF1778C57F00CDA9D2 /* KeychainItemWrapper.m in Sources */ = {isa = PBXBuildFile; fileRef = 28BEA4BE1778C52A00CDA9D2 /* KeychainItemWrapper.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		28BEA4C91778EF7600CDA9D2 /* XLCoreDataCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28BEA4C81778EF7600CDA9D2 /* XLCoreDataCollectionViewController.m */; };
 		28C8EDFE1770F19A00AFB98C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28C8EDFD1770F19A00AFB98C /* Foundation.framework */; };
 		28C8EE031770F19A00AFB98C /* XLKit.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 28C8EE021770F19A00AFB98C /* XLKit.h */; };
 		28C8EE051770F19A00AFB98C /* XLKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 28C8EE041770F19A00AFB98C /* XLKit.m */; };
@@ -103,8 +100,6 @@
 		28E313AC17734DC500D6FCA0 /* XLHideKeyboardTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 28E313AB17734DC500D6FCA0 /* XLHideKeyboardTableView.m */; };
 		28E313AE17734E3100D6FCA0 /* XLHideKeyboardTableView.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 28E313AA17734DC500D6FCA0 /* XLHideKeyboardTableView.h */; };
 		28E313AF17734E3100D6FCA0 /* XLHideKeyboardView.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 28E313A617734CE200D6FCA0 /* XLHideKeyboardView.h */; };
-		28E313B41774D49000D6FCA0 /* XLCoreDataTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28E313B31774D49000D6FCA0 /* XLCoreDataTableViewController.m */; };
-		28E313B51774D58300D6FCA0 /* XLCoreDataTableViewController.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 28E313B21774D49000D6FCA0 /* XLCoreDataTableViewController.h */; };
 		28E313B81774E6E100D6FCA0 /* XLHideKeyboardScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 28E313B71774E6E100D6FCA0 /* XLHideKeyboardScrollView.m */; };
 		28F037FE177DE68800DBE656 /* NSJSONSerialization+XLAdittions.m in Sources */ = {isa = PBXBuildFile; fileRef = 28F037FD177DE68800DBE656 /* NSJSONSerialization+XLAdittions.m */; };
 		28F037FF177DE90D00DBE656 /* NSJSONSerialization+XLAdittions.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 28F037FC177DE68800DBE656 /* NSJSONSerialization+XLAdittions.h */; };
@@ -120,7 +115,6 @@
 		B210EAF418400E6D008ECE35 /* XLSwipeView.m in Sources */ = {isa = PBXBuildFile; fileRef = B210EAF318400E6D008ECE35 /* XLSwipeView.m */; };
 		B21984A817D6571E0049A1DD /* XLCustomSheetView.m in Sources */ = {isa = PBXBuildFile; fileRef = B21984A717D6571E0049A1DD /* XLCustomSheetView.m */; };
 		B2D2F34F17CBD28E00966016 /* XLCustomPickerView.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = B2039D2E17CBA5A40092F0D5 /* XLCustomPickerView.h */; };
-		B2FC9469177A14F800EF0172 /* XLCoreDataCollectionViewController.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 28BEA4C71778EF7600CDA9D2 /* XLCoreDataCollectionViewController.h */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -154,8 +148,6 @@
 				28F037FF177DE90D00DBE656 /* NSJSONSerialization+XLAdittions.h in CopyFiles */,
 				287B915E177BC70B00F556F1 /* NSManagedObject+Additions.h in CopyFiles */,
 				287B90F0177B547B00F556F1 /* NSError+XLAdditions.h in CopyFiles */,
-				B2FC9469177A14F800EF0172 /* XLCoreDataCollectionViewController.h in CopyFiles */,
-				28E313B51774D58300D6FCA0 /* XLCoreDataTableViewController.h in CopyFiles */,
 				28E313AE17734E3100D6FCA0 /* XLHideKeyboardTableView.h in CopyFiles */,
 				28E313AF17734E3100D6FCA0 /* XLHideKeyboardView.h in CopyFiles */,
 				28E313A5177204B000D6FCA0 /* UIView+XLAdditions.h in CopyFiles */,
@@ -212,8 +204,6 @@
 		28B0368B1870FB9B00477BF5 /* UIViewController+XLAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIViewController+XLAdditions.m"; path = "Category/UIViewController+XLAdditions.m"; sourceTree = "<group>"; };
 		28BEA4BD1778C52A00CDA9D2 /* KeychainItemWrapper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = KeychainItemWrapper.h; path = ../XLiOSKit_noARC/KeychainItemWrapper.h; sourceTree = "<group>"; };
 		28BEA4BE1778C52A00CDA9D2 /* KeychainItemWrapper.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = KeychainItemWrapper.m; path = ../XLiOSKit_noARC/KeychainItemWrapper.m; sourceTree = "<group>"; };
-		28BEA4C71778EF7600CDA9D2 /* XLCoreDataCollectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = XLCoreDataCollectionViewController.h; path = CoreData/Collection/XLCoreDataCollectionViewController.h; sourceTree = "<group>"; };
-		28BEA4C81778EF7600CDA9D2 /* XLCoreDataCollectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; name = XLCoreDataCollectionViewController.m; path = CoreData/Collection/XLCoreDataCollectionViewController.m; sourceTree = "<group>"; };
 		28C8EDFA1770F19A00AFB98C /* libXLiOSKit.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libXLiOSKit.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		28C8EDFD1770F19A00AFB98C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		28C8EE011770F19A00AFB98C /* XLiOSKit-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "XLiOSKit-Prefix.pch"; sourceTree = "<group>"; };
@@ -227,8 +217,6 @@
 		28E313A717734CE200D6FCA0 /* XLHideKeyboardView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = XLHideKeyboardView.m; path = View/XLHideKeyboardView.m; sourceTree = "<group>"; };
 		28E313AA17734DC500D6FCA0 /* XLHideKeyboardTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = XLHideKeyboardTableView.h; path = View/XLHideKeyboardTableView.h; sourceTree = "<group>"; };
 		28E313AB17734DC500D6FCA0 /* XLHideKeyboardTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = XLHideKeyboardTableView.m; path = View/XLHideKeyboardTableView.m; sourceTree = "<group>"; };
-		28E313B21774D49000D6FCA0 /* XLCoreDataTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = XLCoreDataTableViewController.h; path = CoreData/Table/XLCoreDataTableViewController.h; sourceTree = "<group>"; };
-		28E313B31774D49000D6FCA0 /* XLCoreDataTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; name = XLCoreDataTableViewController.m; path = CoreData/Table/XLCoreDataTableViewController.m; sourceTree = "<group>"; };
 		28E313B61774E6E100D6FCA0 /* XLHideKeyboardScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = XLHideKeyboardScrollView.h; path = View/XLHideKeyboardScrollView.h; sourceTree = "<group>"; };
 		28E313B71774E6E100D6FCA0 /* XLHideKeyboardScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = XLHideKeyboardScrollView.m; path = View/XLHideKeyboardScrollView.m; sourceTree = "<group>"; };
 		28F037FC177DE68800DBE656 /* NSJSONSerialization+XLAdittions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSJSONSerialization+XLAdittions.h"; path = "Category/NSJSONSerialization+XLAdittions.h"; sourceTree = "<group>"; };
@@ -268,7 +256,6 @@
 			isa = PBXGroup;
 			children = (
 				28F03803177E3CC900DBE656 /* Helper */,
-				28E313B01774D46700D6FCA0 /* CoreData */,
 			);
 			path = ViewController;
 			sourceTree = "<group>";
@@ -314,15 +301,6 @@
 			name = TableViewCell;
 			sourceTree = "<group>";
 		};
-		28AE9D9217A1C13E0029EC02 /* Table */ = {
-			isa = PBXGroup;
-			children = (
-				28E313B21774D49000D6FCA0 /* XLCoreDataTableViewController.h */,
-				28E313B31774D49000D6FCA0 /* XLCoreDataTableViewController.m */,
-			);
-			name = Table;
-			sourceTree = "<group>";
-		};
 		28BEA4B01778906900CDA9D2 /* Helper */ = {
 			isa = PBXGroup;
 			children = (
@@ -339,15 +317,6 @@
 				28BEA4BE1778C52A00CDA9D2 /* KeychainItemWrapper.m */,
 			);
 			name = Keychain;
-			sourceTree = "<group>";
-		};
-		28BEA4C61778EF2F00CDA9D2 /* Collection */ = {
-			isa = PBXGroup;
-			children = (
-				28BEA4C71778EF7600CDA9D2 /* XLCoreDataCollectionViewController.h */,
-				28BEA4C81778EF7600CDA9D2 /* XLCoreDataCollectionViewController.m */,
-			);
-			name = Collection;
 			sourceTree = "<group>";
 		};
 		28C8EDF11770F19A00AFB98C = {
@@ -465,15 +434,6 @@
 			name = View;
 			sourceTree = "<group>";
 		};
-		28E313B01774D46700D6FCA0 /* CoreData */ = {
-			isa = PBXGroup;
-			children = (
-				28AE9D9217A1C13E0029EC02 /* Table */,
-				28BEA4C61778EF2F00CDA9D2 /* Collection */,
-			);
-			name = CoreData;
-			sourceTree = "<group>";
-		};
 		28F03803177E3CC900DBE656 /* Helper */ = {
 			isa = PBXGroup;
 			children = (
@@ -505,8 +465,6 @@
 				2879CD2218E0F91900B66A94 /* XLButtonTableViewCell.h in Headers */,
 				286D6F36190AB6F40077BF2E /* NSDate+XLAdditions.h in Headers */,
 				28BCC81F18B692A5008D2923 /* XLNonRoutableNavigationViewController.h in Headers */,
-				28BCC82018B692A5008D2923 /* XLCoreDataTableViewController.h in Headers */,
-				28BCC82118B692A5008D2923 /* XLCoreDataCollectionViewController.h in Headers */,
 				28A5E6841A05A5C900B3F15A /* UIButton+XLAdditions.h in Headers */,
 				28BCC82618B692A5008D2923 /* UIDevice+XLAdditions.h in Headers */,
 				28BCC82718B692A5008D2923 /* UILabel+XLAdditions.h in Headers */,
@@ -640,12 +598,10 @@
 				28E313A817734CE300D6FCA0 /* XLHideKeyboardView.m in Sources */,
 				28B0368C1870FB9B00477BF5 /* UIViewController+XLAdditions.m in Sources */,
 				28E313AC17734DC500D6FCA0 /* XLHideKeyboardTableView.m in Sources */,
-				28E313B41774D49000D6FCA0 /* XLCoreDataTableViewController.m in Sources */,
 				28E313B81774E6E100D6FCA0 /* XLHideKeyboardScrollView.m in Sources */,
 				283A63AC184630E8009128E2 /* NSObject+XLAdditions.m in Sources */,
 				28122C7818524E4400889C2D /* UITableViewController+XLAdditions.m in Sources */,
 				286D6F37190AB6F40077BF2E /* NSDate+XLAdditions.m in Sources */,
-				28BEA4C91778EF7600CDA9D2 /* XLCoreDataCollectionViewController.m in Sources */,
 				287B915D177BC4B500F556F1 /* NSManagedObject+Additions.m in Sources */,
 				28F037FE177DE68800DBE656 /* NSJSONSerialization+XLAdittions.m in Sources */,
 				28F03801177E136900DBE656 /* NSError+XLAdditions.m in Sources */,
