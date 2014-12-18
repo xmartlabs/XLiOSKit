@@ -27,7 +27,7 @@
 @protocol XLCustomPickerDelegate <NSObject>
 
 @required
-- (void)done:(NSInteger)selectedRow;
+- (void)doneWithSelectedRow:(NSInteger)row;
 - (void)cancel;
 
 @end

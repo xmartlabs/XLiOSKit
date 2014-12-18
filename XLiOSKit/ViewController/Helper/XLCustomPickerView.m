@@ -163,7 +163,7 @@
 - (void)doneButtonDidTouch:(id)sender
 {
     [self dismissActionSheet:YES];
-    [self.delegate done:_selectedRow];
+    [self.delegate doneWithSelectedRow:_selectedRow];
 }
 
 - (void)cancelButtonDidTouch:(id)sender
