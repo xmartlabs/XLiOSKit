@@ -28,4 +28,7 @@
 
 +(NSDate *)dateFromString:(NSString *)dateString;
 
+-(NSDate *)xlBeginningOfDay;
+-(NSDate *)xlEndOfDay;
+
 @end
