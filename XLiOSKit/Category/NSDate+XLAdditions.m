@@ -41,4 +41,24 @@
     return [formatter dateFromString:dateString];
 }
 
+-(NSDate *)xlBeginningOfDay
+{
+    NSCalendar *cal = [NSCalendar currentCalendar];
+    NSDateComponents *components = [cal components:( NSDayCalendarUnit | NSMonthCalendarUnit | NSYearCalendarUnit | NSHourCalendarUnit | NSMinuteCalendarUnit | NSSecondCalendarUnit ) fromDate:self];
+    [components setHour:0];
+    [components setMinute:0];
+    [components setSecond:0];
+    return [cal dateFromComponents:components];
+}
+
+-(NSDate *)xlEndOfDay
+{
+    NSCalendar *cal = [NSCalendar currentCalendar];
+    NSDateComponents *components = [cal components:( NSDayCalendarUnit | NSMonthCalendarUnit | NSYearCalendarUnit | NSHourCalendarUnit | NSMinuteCalendarUnit | NSSecondCalendarUnit ) fromDate:self];
+    [components setHour:23];
+    [components setMinute:59];
+    [components setSecond:59];
+    return [cal dateFromComponents:components];
+}
+
 @end

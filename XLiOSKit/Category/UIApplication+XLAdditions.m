@@ -28,12 +28,17 @@
 
 +(NSString *)bundleVersion
 {
-    return [[NSBundle mainBundle] infoDictionary][(NSString*)kCFBundleVersionKey];
+    return [[[NSBundle mainBundle] infoDictionary] objectForKey:(NSString*)kCFBundleVersionKey];
 }
 
 +(NSString *)appVersion
 {
     return [[[NSBundle mainBundle] infoDictionary] objectForKey:@"CFBundleShortVersionString"];
+}
+
++(NSString *)bundleName
+{
+    return [[[NSBundle mainBundle] infoDictionary] objectForKey:(NSString *)kCFBundleNameKey];
 }
 
 @end

@@ -28,5 +28,6 @@
 
 +(NSString *)bundleVersion;
 +(NSString *)appVersion;
++(NSString *)bundleName;
 
 @end
