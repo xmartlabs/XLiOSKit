@@ -34,5 +34,6 @@
 +(BOOL)stringIsNilOrEmpty:(NSString *)string;
 +(NSString *)stringByTrimmingString:(NSString *)string;
 +(NSString *)stringByRemovingBlanks:(NSString *)string;
++(NSString *)stringWithFormat:(NSString *)format arguments:(NSArray *)args;
 
 @end

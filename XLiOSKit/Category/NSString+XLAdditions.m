@@ -72,4 +72,52 @@
     return [withoutBlanks stringByTrimmingCharactersInSet:[NSCharacterSet whitespaceAndNewlineCharacterSet]];
 }
 
+
++(NSString *)stringWithFormat:(NSString *)format arguments:(NSArray *)args
+{
+    NSString *formatted;
+    switch (args.count) {
+        case 0:
+            formatted = format;
+            break;
+        case 1:
+            formatted = [NSString stringWithFormat:format, args[0]];
+            break;
+        case 2:
+            formatted = [NSString stringWithFormat:format, args[0], args[1]];
+            break;
+        case 3:
+            formatted = [NSString stringWithFormat:format, args[0], args[1], args[2]];
+            break;
+        case 4:
+            formatted = [NSString stringWithFormat:format, args[0], args[1], args[2], args[3]];
+            break;
+        case 5:
+            formatted = [NSString stringWithFormat:format, args[0], args[1], args[2], args[3], args[4]];
+            break;
+        case 6:
+            formatted = [NSString stringWithFormat:format, args[0], args[1], args[2], args[3], args[4], args[5]];
+            break;
+        case 7:
+            formatted = [NSString stringWithFormat:format, args[0], args[1], args[2], args[3], args[4], args[5], args[6]];
+            break;
+        case 8:
+            formatted = [NSString stringWithFormat:format, args[0], args[1], args[2], args[3], args[4], args[5], args[6], args[7]];
+            break;
+        case 9:
+            formatted = [NSString stringWithFormat:format, args[0], args[1], args[2], args[3], args[4], args[5], args[6], args[7], args[8]];
+            break;
+        default:
+            // Ten or more elements, just use the first 10 elements
+            formatted = [NSString stringWithFormat:format, args[0], args[1], args[2], args[3], args[4], args[5], args[6], args[7], args[8], args[9]];
+            break;
+    }
+    
+    if (args.count > 10) {
+        NSAssert(args.count <= 10, @"[WRN] More than 10 (%lu) elements in array.", (unsigned long)args.count);
+    }
+    
+    return formatted;
+}
+
 @end
