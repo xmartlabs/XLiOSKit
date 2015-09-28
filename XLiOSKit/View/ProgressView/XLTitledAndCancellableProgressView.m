@@ -120,7 +120,7 @@
     if (_titleLabel) return _titleLabel;
     _titleLabel = [[UILabel alloc] initWithFrame:CGRectMake(0, TOP_BOTTOM_MARGIN + 3, 100, 20)];
     _titleLabel.layer.zPosition = 1;
-    _titleLabel.font = [UIFont fontWithName:@"HelveticaNeue-Bold" size:10.0f];
+    _titleLabel.font = [UIFont boldSystemFontOfSize:10.0f];
     
     [_titleLabel setBackgroundColor:[UIColor redColor]];
     
