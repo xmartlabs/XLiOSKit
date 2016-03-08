@@ -29,8 +29,7 @@
 
 +(instancetype)findFirstByAttribute:(NSString *)attribute withValue:(id)value inContext:(NSManagedObjectContext *)context
 {
-    NSString * predicateStr = [NSString stringWithFormat:@"%@ = %%@", attribute];
-    NSPredicate * searchByAttValue = [NSPredicate predicateWithFormat:predicateStr argumentArray:@[value]];
+    NSPredicate * searchByAttValue = [NSPredicate predicateWithFormat:@"%K = %@", attribute, value];
     NSFetchRequest * fetchRequest = [self fetchRequest];
     fetchRequest.predicate = searchByAttValue;
     fetchRequest.fetchLimit = 1;
