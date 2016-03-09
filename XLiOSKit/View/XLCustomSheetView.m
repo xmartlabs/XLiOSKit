@@ -144,7 +144,7 @@
     _titleLabel = [[UILabel alloc] initWithFrame:CGRectZero];
     _titleLabel.backgroundColor = kCancelButtonBackground;
     _titleLabel.textColor = kTitleFontColor;
-    _titleLabel.font = [UIFont fontWithName:@"HelveticaNeue-Bold" size:18.0];
+    _titleLabel.font = [UIFont boldSystemFontOfSize:18.0f];
     _titleLabel.textAlignment = NSTextAlignmentCenter;
     return _titleLabel;
 }
