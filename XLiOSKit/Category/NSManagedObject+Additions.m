@@ -29,8 +29,7 @@
 
 +(instancetype)findFirstByAttribute:(NSString *)attribute withValue:(id)value inContext:(NSManagedObjectContext *)context
 {
-    NSString * predicateStr = [NSString stringWithFormat:@"%@ = %%@", attribute];
-    NSPredicate * searchByAttValue = [NSPredicate predicateWithFormat:predicateStr argumentArray:@[value]];
+    NSPredicate * searchByAttValue = [NSPredicate predicateWithFormat:@"%K = %@", attribute, value];
     NSFetchRequest * fetchRequest = [self fetchRequest];
     fetchRequest.predicate = searchByAttValue;
     fetchRequest.fetchLimit = 1;
@@ -92,8 +91,11 @@
 
 +(instancetype)objectWithID:(NSManagedObjectID *)managedObjectID inContext:(NSManagedObjectContext *)context
 {
-    NSError *error;
-    return [context existingObjectWithID:managedObjectID error:&error];
+    if (!managedObjectID){
+        return nil;
+    }
+
+    return [context existingObjectWithID:managedObjectID error:nil];
 }
 
 +(NSArray *)allObjectsInContext:(NSManagedObjectContext *)context
