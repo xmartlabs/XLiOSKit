@@ -30,7 +30,7 @@
 
 -(BOOL)isValidAsEmail:(NSError **)error
 {
-    NSString *regexForEmailAddress = @"[A-Z0-9a-z._%+-]+@[A-Za-z0-9.-]+\\.[A-Za-z]{2,4}";
+    NSString *regexForEmailAddress = @"[A-Z0-9a-z._%+'-]+@[A-Za-z0-9.-]+\\.[A-Za-z]{2,4}";
     NSPredicate *emailValidation = [NSPredicate predicateWithFormat:@"SELF MATCHES %@",regexForEmailAddress];
     BOOL success = [emailValidation evaluateWithObject:self];
     if (success == NO && error) {
